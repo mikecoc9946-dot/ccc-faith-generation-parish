@@ -98,3 +98,86 @@
 }
 
 
+
+/* FINAL DESIGN IMPROVEMENTS */
+
+/* Worship section */
+.worship {
+  background: #F3F5F8;
+}
+
+.service-panel {
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(8,27,51,.12);
+}
+
+/* Events section */
+.event-placeholder {
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(16,45,89,.06);
+  border-color: #e1e6ed;
+}
+
+/* Gallery */
+.gallery {
+  background: #F3F5F8;
+}
+
+.gallery-tile {
+  border-radius: 10px;
+  min-height: 220px;
+  transition: transform .3s ease;
+}
+
+.gallery-tile:hover {
+  transform: translateY(-5px);
+}
+
+.gallery-tile:nth-child(2) {
+  background: #294b68;
+}
+
+.gallery-tile:nth-child(3) {
+  background: #D5AD55;
+  color: #102D59;
+}
+
+/* Contact section */
+.contact-card {
+  background: #F3F5F8;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(16,45,89,.06);
+}
+
+/* Buttons */
+.button {
+  border-radius: 30px;
+  transition: background .3s ease, transform .3s ease;
+}
+
+.button:hover {
+  background: #B88D35;
+  transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+  background: #081B33;
+  padding: 50px 8%;
+}
+
+footer .brand-mark {
+  border-color: #D5AD55;
+  color: #D5AD55;
+}
+
+/* Mobile improvements */
+@media (max-width: 800px) {
+  .gallery-tile {
+    min-height: 160px;
+  }
+
+  .section {
+    padding: 70px 6%;
+  }
+}
