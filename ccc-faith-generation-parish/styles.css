@@ -2,7 +2,7 @@
 .three-cards article:hover{transform:translateY(-6px);box-shadow:0 12px 28px rgba(16,45,89,.13)}.three-cards article span{color:var(--gold);font-size:30px}.three-cards h3,.contact-card h3{color:var(--navy);font-family:Georgia,serif;font-size:22px;font-weight:400}.three-cards p,.contact-card p{color:var(--muted);font-size:14px}.worship{background:var(--cream)}.service-panel{max-width:900px;margin:auto;background:var(--navy);color:#fff;padding:38px 42px;display:flex;justify-content:space-between;align-items:center;gap:25px}.service-panel small{color:#e1c98e;letter-spacing:1.8px}.service-panel h3{font-family:Georgia,serif;font-weight:400;font-size:27px;margin:8px 0}.service-panel p{color:#d2dbe3;margin:0}.button-light{background:#fff;color:var(--navy);white-space:nowrap}.event-placeholder{max-width:760px;margin:auto;padding:35px;text-align:center;border:1px solid #e7e1d4;background:#fff}.event-placeholder p{color:var(--muted)}.gallery{background:var(--cream)}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.gallery-tile{min-height:180px;display:grid;place-items:center;background:var(--navy);color:#fff;letter-spacing:1.5px;font-size:12px}.gallery-tile:nth-child(2){background:#294b68}.gallery-tile:nth-child(3){background:#526b7c}.contact-card{max-width:900px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:45px;padding:35px;background:var(--cream)}footer{padding:35px 8%;background:var(--deep);color:#dbe2e8;text-align:center;font-size:12px}.footer-brand{justify-content:center;color:#fff}.footer-brand small{color:#c5d0d9}footer>small{color:#aab7c2}.menu-toggle{cursor:pointer}
 @media(max-width:800px){.site-header{padding:15px 5%;flex-wrap:wrap}.menu-toggle{display:block}nav{display:none;flex-basis:100%;flex-direction:column;gap:0;padding:8px 0}nav.open{display:flex}nav a{padding:10px 0;border-top:1px solid #eee}.hero{min-height:490px;padding:65px 7%}.section{padding:65px 6%}.three-cards{grid-template-columns:1fr}.service-panel{display:block;padding:30px}.gallery-grid{grid-template-columns:1fr}.gallery-tile{min-height:130px}.contact-card{grid-template-columns:1fr;gap:15px;padding:25px}}
 
-/* NAVIGATION MENU - CCC FAITH GENERATION PARISH */#D5AD55
+/* NAVIGATION MENU - CCC FAITH GENERATION PARISH */
 
 .site-header {
   background: #ffffff;
@@ -37,11 +37,10 @@
 }
 
 .site-header nav a:hover {
-  color: #2563eb;
+  color: #D5AD55;
 }
-
 .site-header nav .seed-button {
-  background: #102D59
+  background: #102D59;
   color: #ffffff;
   padding: 12px 23px;
   border-radius: 30px;
