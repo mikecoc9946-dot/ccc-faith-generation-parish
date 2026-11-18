@@ -180,3 +180,40 @@ footer .brand-mark {
     padding: 70px 6%;
   }
 }
+
+/* HOMEPAGE SLIDER CONTROLS */
+.hero {
+  position: relative;
+  transition: background-image 0.6s ease-in-out;
+}
+
+.slider-controls {
+  position: absolute;
+  right: 7%;
+  bottom: 35px;
+  display: flex;
+  gap: 12px;
+}
+
+.slider-controls button {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #D5AD55;
+  border-radius: 50%;
+  background: #102D59;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.slider-controls button:hover {
+  background: #D5AD55;
+  color: #102D59;
+}
+
+@media (max-width: 600px) {
+  .slider-controls {
+    right: 6%;
+    bottom: 20px;
+  }
+}
