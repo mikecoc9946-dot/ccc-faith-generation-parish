@@ -216,4 +216,71 @@ footer .brand-mark {
     right: 6%;
     bottom: 20px;
   }
+  
+/* DISCOVER MORE SECTION */
+
+.discover {
+  background: #ffffff;
+}
+
+.discover-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.discover-card {
+  display: block;
+  padding: 35px 28px;
+  background: #F3F5F8;
+  border: 1px solid #e4e9f0;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
+.discover-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 28px rgba(16,45,89,.12);
+}
+
+.discover-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #102D59;
+  color: #D5AD55;
+  font-size: 25px;
+}
+
+.discover-card h3 {
+  color: #102D59;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.discover-card p {
+  color: #687582;
+  font-size: 14px;
+}
+
+.discover-card strong {
+  display: inline-block;
+  margin-top: 12px;
+  color: #102D59;
+  font-size: 13px;
+}
+
+@media (max-width: 800px) {
+  .discover-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 }
