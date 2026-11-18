@@ -74,3 +74,26 @@
     padding: 20px 0;
   }
 }
+
+/* OFFICIAL CHURCH LOGO */
+.site-header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-header .brand-logo {
+  width: 85px;
+  height: 65px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .site-header .brand-logo {
+    width: 65px;
+    height: 55px;
+  }
+}
+
+
