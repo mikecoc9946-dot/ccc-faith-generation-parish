@@ -466,9 +466,86 @@ button {
 ========================================= */
 
 .live-section {
-  background: var(--white);
+  padding: 90px 8%;
+  background: var(--cream);
 }
 
+.live-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1200px;
+  margin: 35px auto 0;
+}
+
+.live-card {
+  display: block;
+  padding: 35px 25px;
+  background: var(--white);
+  border: 1px solid #e5e8ed;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 5px 18px rgba(16,45,89,.07);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.live-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 12px 28px rgba(16,45,89,.13);
+}
+
+.live-icon {
+  width: 65px;
+  height: 65px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 18px;
+  background: var(--navy);
+  color: var(--gold);
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.live-card h3 {
+  font-family: Georgia, serif;
+  color: var(--navy);
+  font-size: 23px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.live-card p {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.live-card span {
+  display: inline-block;
+  color: var(--navy);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: .5px;
+}
+
+.live-card:hover span {
+  color: var(--gold);
+}
+
+/* MOBILE SOCIAL CARDS */
+
+@media (max-width: 800px) {
+  .live-section {
+    padding: 70px 6%;
+  }
+
+  .live-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 /* =========================================
    EVENTS
 ========================================= */
