@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about CCC Faith Generation Parish, our mission, vision, and core values.">
     <title>About Us | CCC Faith Generation Parish</title>
     <link rel="stylesheet" href="styles.css">
 
@@ -12,42 +13,157 @@
             background: linear-gradient(135deg, #081B33, #102D59);
             color: white;
             text-align: center;
-            padding: 80px 20px;
+            padding: 85px 20px;
         }
 
         .about-hero h1 {
             color: #D5AD55;
             font-size: 42px;
+            margin-bottom: 15px;
         }
 
-        .about-content {
-            max-width: 1000px;
+        .about-hero p {
+            font-size: 18px;
+        }
+
+        .about-main {
+            max-width: 1100px;
             margin: auto;
-            padding: 50px 20px;
+            padding: 60px 20px;
+        }
+
+        .about-intro {
+            text-align: center;
+            max-width: 850px;
+            margin: 0 auto 55px;
+        }
+
+        .about-intro h2 {
+            color: #102D59;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about-intro p {
+            line-height: 1.9;
+            font-size: 17px;
+        }
+
+        .mission-vision {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-bottom: 55px;
         }
 
         .about-card {
             background: #F3F5F8;
             padding: 30px;
             border-radius: 12px;
-            margin-bottom: 25px;
-            border-left: 5px solid #D5AD55;
+            border-top: 5px solid #D5AD55;
         }
 
         .about-card h2 {
             color: #102D59;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
         }
 
         .about-card p {
             line-height: 1.8;
         }
 
+        .values-section {
+            text-align: center;
+            margin-bottom: 55px;
+        }
+
+        .values-section > h2 {
+            color: #102D59;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+        }
+
+        .value-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(8, 27, 51, 0.08);
+            border-bottom: 4px solid #D5AD55;
+        }
+
+        .value-icon {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .value-card h3 {
+            color: #102D59;
+            margin-bottom: 12px;
+        }
+
+        .value-card p {
+            line-height: 1.7;
+        }
+
+        .about-location {
+            background: #102D59;
+            color: white;
+            text-align: center;
+            padding: 40px 25px;
+            border-radius: 12px;
+        }
+
+        .about-location h2 {
+            color: #D5AD55;
+            margin-bottom: 20px;
+        }
+
         .about-footer {
             background: #081B33;
             color: white;
+            padding: 45px 20px 25px;
             text-align: center;
-            padding: 25px;
+        }
+
+        .about-footer h3 {
+            color: #D5AD55;
+            margin-bottom: 15px;
+        }
+
+        .about-footer a {
+            color: white;
+            text-decoration: none;
+            margin: 8px;
+            display: inline-block;
+        }
+
+        .about-footer a:hover {
+            color: #D5AD55;
+        }
+
+        .footer-links {
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .about-hero h1 {
+                font-size: 32px;
+            }
+
+            .about-intro h2,
+            .values-section > h2 {
+                font-size: 26px;
+            }
+
+            .about-main {
+                padding: 40px 15px;
+            }
         }
     </style>
 </head>
@@ -60,9 +176,9 @@
 
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
             <a href="media.html">Media</a>
             <a href="events.html">Events</a>
+            <a href="about.html">About</a>
             <a href="sow-a-seed.html">Sow a Seed</a>
         </nav>
     </div>
@@ -70,66 +186,138 @@
 
 <section class="about-hero">
     <h1>About Us</h1>
-    <p>Welcome to Celestial Church of Christ, Faith Generation Parish</p>
+    <p>Celestial Church of Christ, Faith Generation Parish</p>
+    <p>A place of worship, faith, love, and spiritual growth.</p>
 </section>
 
-<section class="about-content">
+<main class="about-main">
 
-    <div class="about-card">
+    <section class="about-intro">
         <h2>Welcome to Faith Generation Parish</h2>
 
         <p>
             Welcome to Celestial Church of Christ, Faith Generation Parish,
-            located in Ijoko, Ogun State, Nigeria.
-            We are a community of believers committed to worshipping God,
-            growing in faith, living in love, and sharing the message
-            of Jesus Christ.
+            located in Ijoko, Ogun State, Nigeria. We are a community of
+            believers committed to worshipping God, growing in faith,
+            living in love, and sharing the message of Jesus Christ.
         </p>
 
         <p>
-            We welcome you to join us in worship, prayer, fellowship,
-            and the study of God's Word.
+            We welcome everyone to join us in worship, prayer, fellowship,
+            and the study of God's Word as we journey together in faith
+            and discover God's purpose for our lives.
         </p>
-    </div>
+    </section>
 
-    <div class="about-card">
-        <h2>Our Mission</h2>
+    <section class="mission-vision">
 
-        <p>
-            To worship God in spirit and truth, preach the Gospel of Jesus Christ,
-            nurture believers in faith, and serve our community with love,
-            compassion, and humility.
-        </p>
-    </div>
+        <div class="about-card">
+            <h2>Our Mission</h2>
 
-    <div class="about-card">
-        <h2>Our Vision</h2>
+            <p>
+                Our mission is to worship God in spirit and truth,
+                preach the Gospel of Jesus Christ, nurture believers
+                in faith, and serve our community with love,
+                compassion, and humility.
+            </p>
 
-        <p>
-            To build a spiritually strong and united community of believers
-            who live according to God's Word, grow in holiness,
-            and shine the light of Christ to the world.
-        </p>
-    </div>
+            <p>
+                Through prayer, teaching, fellowship, and service,
+                we seek to inspire lives and strengthen faith.
+            </p>
+        </div>
 
-    <div class="about-card">
-        <h2>Our Church</h2>
+        <div class="about-card">
+            <h2>Our Vision</h2>
 
-        <p>
-            Celestial Church of Christ, Faith Generation Parish
-        </p>
+            <p>
+                Our vision is to build a spiritually strong and united
+                community of believers who live according to God's Word,
+                grow in holiness, and shine the light of Christ to the world.
+            </p>
 
-        <p>
-            Olorunda Estate, Ntabo Road, Ijoko, Ogun State, Nigeria.
-        </p>
-    </div>
+            <p>
+                We desire to see lives transformed and people drawn
+                closer to God through faith, love, and truth.
+            </p>
+        </div>
 
-</section>
+    </section>
+
+    <section class="values-section">
+
+        <h2>Our Core Values</h2>
+
+        <div class="values-grid">
+
+            <div class="value-card">
+                <div class="value-icon">🙏</div>
+                <h3>Faith & Hope</h3>
+
+                <p>
+                    We believe faith in God and hope in His promises
+                    are the foundations of a life of strength,
+                    peace, and spiritual growth.
+                </p>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon">💖</div>
+                <h3>Love & Compassion</h3>
+
+                <p>
+                    We embrace the love of Christ and show kindness,
+                    compassion, respect, and care to everyone.
+                </p>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon">🌱</div>
+                <h3>Community & Growth</h3>
+
+                <p>
+                    We grow together through fellowship, prayer,
+                    learning God's Word, supporting one another,
+                    and building a united church family.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about-location">
+
+        <h2>Our Parish</h2>
+
+        <p><strong>Celestial Church of Christ, Faith Generation Parish</strong></p>
+
+        <p>Olorunda Estate, Ntabo Road, Ijoko, Ogun State, Nigeria.</p>
+
+        <p>Join us as we worship God, grow in faith, and spread the light of Christ.</p>
+
+    </section>
+
+</main>
 
 <footer class="about-footer">
-    <p>Celestial Church of Christ, Faith Generation Parish</p>
-    <p>Ijoko, Ogun State, Nigeria</p>
+
+    <h3>Celestial Church of Christ</h3>
+
+    <p>Faith Generation Parish</p>
+
+    <p>A place of worship, growth, and spiritual transformation.</p>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="media.html">Media</a>
+        <a href="events.html">Events</a>
+        <a href="about.html">About</a>
+        <a href="sow-a-seed.html">Sow a Seed</a>
+    </div>
+
     <p>&copy; 2026 CCC Faith Generation Parish. All rights reserved.</p>
+
 </footer>
 
 </body>
