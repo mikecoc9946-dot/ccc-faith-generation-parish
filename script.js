@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const t=document.querySelector('.menu-toggle'),n=document.querySelector('.main-nav');if(t&&n)t.addEventListener('click',()=>{const o=n.classList.toggle('open');t.setAttribute('aria-expanded',String(o));t.textContent=o?'×':'☰'});document.querySelectorAll('.year').forEach(e=>e.textContent=new Date().getFullYear())});
